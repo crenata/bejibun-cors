@@ -36,7 +36,7 @@ return Response.json({...}, {
     }
 });
 
-Or
+// OR
 
 return Response.json({...}, {
     headers: Cors.init
