@@ -35,6 +35,6 @@
     "type": "module",
     "types": "index.d.ts",
     "dependencies": {
-        "@bejibun/utils": "^0.1.0"
+        "@bejibun/utils": "^0.1.1"
     }
 }
