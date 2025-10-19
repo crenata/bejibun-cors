@@ -4,6 +4,7 @@
     "": {
       "name": "@bejibun/cors",
       "dependencies": {
+        "@bejibun/app": "^0.1.11",
         "@bejibun/utils": "^0.1.1",
       },
       "devDependencies": {
@@ -13,6 +14,8 @@
     },
   },
   "packages": {
+    "@bejibun/app": ["@bejibun/app@0.1.11", "", { "dependencies": { "@bejibun/utils": "^0.1.1" } }, "sha512-UjhG3KuBhswCXK46vnw+oNDdeAbA9CcC5h3MMBPEC5E+lBkoep82NrGbwUqQTC6uCVZUfeCfnMWteAsiQJXYDQ=="],
+
     "@bejibun/utils": ["@bejibun/utils@0.1.1", "", {}, "sha512-8TofYYN+EhPQgNOkyovMaAamRqbK/PisrAxjspXFlqVLj8bnmdOsZjosTpNXesLGIftn4rKkaFsfaafD//31Hg=="],
 
     "@nodelib/fs.scandir": ["@nodelib/fs.scandir@2.1.5", "", { "dependencies": { "@nodelib/fs.stat": "2.0.5", "run-parallel": "^1.1.9" } }, "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="],

@@ -1,8 +1,8 @@
 import type {EnumItem} from "@bejibun/utils/facades/Enum";
+import App from "@bejibun/app";
 import Enum from "@bejibun/utils/facades/Enum";
 import HttpMethodEnum from "@bejibun/utils/enums/HttpMethodEnum";
 import fs from "fs";
-import path from "path";
 import CorsHeaderEnum from "@/enums/CorsHeaderEnum";
 
 export type CorsHeader = {
@@ -18,7 +18,7 @@ export default class CorsBuilder {
     protected config: any;
 
     public constructor() {
-        const configPath = path.resolve(process.cwd(), "config/cors.ts");
+        const configPath = App.configPath("cors.ts");
 
         if (fs.existsSync(configPath)) this.config = require(configPath).default;
         else this.config = require("@/config/cors").default;
