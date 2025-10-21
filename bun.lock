@@ -4,7 +4,7 @@
     "": {
       "name": "@bejibun/cors",
       "dependencies": {
-        "@bejibun/app": "^0.1.11",
+        "@bejibun/app": "^0.1.19",
         "@bejibun/utils": "^0.1.14",
       },
       "devDependencies": {
@@ -14,7 +14,7 @@
     },
   },
   "packages": {
-    "@bejibun/app": ["@bejibun/app@0.1.11", "", { "dependencies": { "@bejibun/utils": "^0.1.1" } }, "sha512-UjhG3KuBhswCXK46vnw+oNDdeAbA9CcC5h3MMBPEC5E+lBkoep82NrGbwUqQTC6uCVZUfeCfnMWteAsiQJXYDQ=="],
+    "@bejibun/app": ["@bejibun/app@0.1.19", "", { "dependencies": { "@bejibun/utils": "^0.1.1" } }, "sha512-OBuXtH6X84CE0bpbSlpKFQ5rULQ9LdGO7/HGrf4Gc08dFwFq8fl6NF5iIiHEpYwd/y4Pldc+BrFzseH6k+Mtdw=="],
 
     "@bejibun/logger": ["@bejibun/logger@0.1.18", "", { "dependencies": { "@bejibun/utils": "^0.1.1", "chalk": "^5.6.2", "luxon": "^3.7.2" } }, "sha512-UP0SU+x/sfNtIC9+HWgToS53bGSK5Ot+oRdbAfzgl9AXfqTOhRP9lCJvaMhifl4w0Rwuye/69NNMX+GWPFkR1A=="],
 
@@ -111,7 +111,5 @@
     "tsc-alias": ["tsc-alias@1.8.16", "", { "dependencies": { "chokidar": "^3.5.3", "commander": "^9.0.0", "get-tsconfig": "^4.10.0", "globby": "^11.0.4", "mylas": "^2.1.9", "normalize-path": "^3.0.0", "plimit-lit": "^1.2.6" }, "bin": { "tsc-alias": "dist/bin/index.js" } }, "sha512-QjCyu55NFyRSBAl6+MTFwplpFcnm2Pq01rR/uxfqJoLMm6X3O14KEGtaSDZpJYaE1bJBGDjD0eSuiIWPe2T58g=="],
 
     "undici-types": ["undici-types@7.14.0", "", {}, "sha512-QQiYxHuyZ9gQUIrmPo3IA+hUl4KYk8uSA7cHrcKd/l3p1OTpZcM0Tbp9x7FAtXdAYhlasd60ncPpgu6ihG6TOA=="],
-
-    "@bejibun/app/@bejibun/utils": ["@bejibun/utils@0.1.1", "", {}, "sha512-8TofYYN+EhPQgNOkyovMaAamRqbK/PisrAxjspXFlqVLj8bnmdOsZjosTpNXesLGIftn4rKkaFsfaafD//31Hg=="],
   }
 }

@@ -1,6 +1,6 @@
 {
     "name": "@bejibun/cors",
-    "version": "0.1.11",
+    "version": "0.1.12",
     "author": "Havea Crenata <havea.crenata@gmail.com>",
     "repository": {
         "type": "git",
@@ -35,7 +35,7 @@
     "type": "module",
     "types": "index.d.ts",
     "dependencies": {
-        "@bejibun/app": "^0.1.11",
+        "@bejibun/app": "^0.1.19",
         "@bejibun/utils": "^0.1.14"
     }
 }

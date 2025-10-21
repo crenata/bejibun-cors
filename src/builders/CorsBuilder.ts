@@ -18,7 +18,7 @@ export default class CorsBuilder {
     protected config: any;
 
     public constructor() {
-        const configPath = App.configPath("cors.ts");
+        const configPath = App.Path.configPath("cors.ts");
 
         if (fs.existsSync(configPath)) this.config = require(configPath).default;
         else this.config = require("@/config/cors").default;

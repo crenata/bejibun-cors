@@ -6,7 +6,7 @@ import CorsHeaderEnum from "../enums/CorsHeaderEnum";
 export default class CorsBuilder {
     config;
     constructor() {
-        const configPath = App.configPath("cors.ts");
+        const configPath = App.Path.configPath("cors.ts");
         if (fs.existsSync(configPath))
             this.config = require(configPath).default;
         else
