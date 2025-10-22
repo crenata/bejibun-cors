@@ -3,6 +3,21 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [v0.1.14](https://github.com/crenata/bejibun-cors/compare/v0.1.12...v0.1.14) - 2025-10-22
+
+### 🩹 Fixes
+- Fix `configure.ts` configuration file
+
+### 📖 Changes
+
+### ❤️Contributors
+- Havea Crenata ([@crenata](https://github.com/crenata))
+- Ghulje ([@ghulje](https://github.com/ghulje))
+
+**Full Changelog**: https://github.com/crenata/bejibun-cors/blob/master/CHANGELOG.md
+
+---
+
 ## [v0.1.12](https://github.com/crenata/bejibun-cors/compare/v0.1.11...v0.1.12) - 2025-10-22
 
 ### 🩹 Fixes
