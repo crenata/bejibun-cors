@@ -4,7 +4,7 @@
     "author": "Havea Crenata <havea.crenata@gmail.com>",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/crenata/bejibun-cors.git"
+        "url": "git+https://github.com/Bejibun-Framework/bejibun-cors.git"
     },
     "main": "index.js",
     "module": "index.js",
@@ -13,10 +13,10 @@
         "tsc-alias": "^1.8.16"
     },
     "bugs": {
-        "url": "https://github.com/crenata/bejibun-cors/issues"
+        "url": "https://github.com/Bejibun-Framework/bejibun-cors/issues"
     },
     "description": "Cors for Bejibun Framework",
-    "homepage": "https://github.com/crenata/bejibun-cors#readme",
+    "homepage": "https://github.com/Bejibun-Framework/bejibun-cors#readme",
     "keywords": [
         "bun",
         "bun framework",
